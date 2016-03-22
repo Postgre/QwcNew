@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/navigationbar_height"
+    android:background="@color/green" >
+
+    <!-- titile display -->
+
+    <TextView
+        style="@style/text_white_22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/app_name" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical" >
+
+        <ImageView
+            android:id="@+id/navigationbar_weather_icon_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="40dp"
+            android:layout_toLeftOf="@+id/navigationbar_weather_layout_tv"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/weather_na" />
+
+        <LinearLayout
+            android:id="@+id/navigationbar_weather_layout_tv"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="2dp"
+           	android:paddingRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/navigationbar_weather_desc_tv"
+                style="@style/text_white_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weather_desc_na" />
+
+            <TextView
+                android:id="@+id/navigationbar_weather_temp_tv"
+                style="@style/text_white_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weather_temp_na" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

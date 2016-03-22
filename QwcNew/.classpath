@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="libs/mappwidget_1.4.1_trial.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/QwcNew/libs/mappwidget_1.4.1_trial.jar!/javadoc"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/jaxen-1.1-beta-6.jar"/>
+	<classpathentry kind="lib" path="libs/umeng-analytics-v5.2.4.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

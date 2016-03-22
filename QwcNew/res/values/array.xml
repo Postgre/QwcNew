@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="intro">
+  <item>中国最具魅力的休闲乡村</item>
+  <item>全国第一低碳示范村</item>
+  <item>全国生态农业示范区</item>
+  <item>国家级生态村</item>
+  <item>国家AAAA级旅游景区</item>
+  <item>全国特色景观名镇（村）</item>
+  <item>全国地质公园</item>
+  <item>中国特色村</item>
+  <item>中国绿色村庄</item>
+  <item>中国农业公园</item>
+  <item>1996年曾获联合国全球生态五百佳提名奖</item>
+     </string-array>
+</resources>

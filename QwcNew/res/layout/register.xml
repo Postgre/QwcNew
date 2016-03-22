@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/navigationvbar_style" />
+
+    <LinearLayout
+        android:id="@+id/text_toMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/text_green_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="短信验证码" />
+
+        <TextView
+            android:id="@+id/toMobile"
+            style="@style/text_gray_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送到***********" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="密码"
+            android:padding="10dp"
+            android:password="true"
+            android:textSize="15dp" />
+
+        <ViewSwitcher
+            android:id="@+id/profileSwitcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_bg"
+            android:padding="2dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:src="@drawable/pswhidden" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:src="@drawable/pswshow" />
+        </ViewSwitcher>
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/phonenum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="手机号"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/checknum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="请输入验证码"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/getCheckNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_bg_green"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="获取短信验证"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_bg_green"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="下一步"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/sendagain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_bg_green"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="重新发送"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:visibility="gone" />
+    
+    <TextView
+        android:id="@+id/sendwait"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_bg_gray"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="重新发送"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_bg_green"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="完成注册"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+</LinearLayout>

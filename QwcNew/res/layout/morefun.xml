@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/navigationvbar_style" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp" >
+
+        <TextView
+            style="@style/text_gray_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="版本信息" />
+
+        <TextView
+            android:id="@+id/ver"
+            style="@style/text_lowgray_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/banbenxinxi" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:background="#aaaaaa" />
+
+    <!-- <TextView
+        android:id="@+id/beginchange"
+        style="@style/text_gray_15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:drawableRight="@drawable/arrow_gray"
+        android:padding="15dp"
+        android:text="修改密码" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:background="#aaaaaa" /> -->
+    <TextView
+        android:id="@+id/Question_Survey"
+        style="@style/text_gray_15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:drawableRight="@drawable/arrow_gray"
+        android:padding="15dp"
+        android:text="问卷调查" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:background="#aaaaaa" />
+    
+    <TextView
+        android:id="@+id/about"
+        style="@style/text_gray_15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:drawableRight="@drawable/arrow_gray"
+        android:padding="15dp"
+        android:text="关于" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:background="#aaaaaa" />
+
+    <TextView
+        android:id="@+id/logout"
+        style="@style/text_gray_15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:drawableRight="@drawable/arrow_gray"
+        android:padding="15dp"
+        android:text="注销登录" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:background="#aaaaaa" />
+     
+
+</LinearLayout>

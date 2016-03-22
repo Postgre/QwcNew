@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ptr_pull_to_refresh">Pull to refresh</string>
+    <string name="ptr_release_to_refresh">Release to refresh</string>
+    <string name="ptr_loading">Loading</string>
+    <string name="ptr_last_updated">Updated: %1$s</string>
+    <string name="app_name">崇明前卫村</string>
+    <string name="weather_desc_na">NA</string>
+    <string name="weather_temp_na">0℃</string>
+    <string name="home">首页</string>
+    <string name="take_photo">照相</string>
+    <string name="qcode">扫一扫</string>
+    <string name="me">我的</string>
+    <string name="scenic_intro">景区介绍</string>
+    <string name="scenic_navi">景区导览</string>
+    <string name="activity">折扣活动</string>
+    <string name="traffic">交通导航</string>
+    <string name="rank">等级 6</string>
+    <string name="grade">积分 888</string>
+    <string name="intro_main">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;前卫生态村位于上海崇明中部北侧、南接东平社区、紧临东平国家森林公园，北依长江北支。区域面积3.5平方公里，人口753人。这里是：</string>
+    <string name="fronturl">http://qwcwebd.gservfocus.com/Download/</string>
+    <string name="line1">地铁6号线（巨峰路1号口出） > 申崇六线（终点站下） > 南东专线 （前卫村下）</string>
+    <string name="line2">地铁1号线（汶水路4号口出） > 申崇三线（终点站下） > 南东专线 （前卫村下）</string>
+    <string name="line3">地铁3号线（宝杨路1号口出） > 宝山9路（宝杨路码头下） > 船  > 南东专线（前卫村下）</string>
+    <string name="line4">地铁1号线（富锦路1号口出） > 宝山14路（石洞口码头下） > 船  > 南东专线（前卫村下）</string>
+    <string name="line5">石洞口码头（船）->南门港->保胜线（公交）</string>
+    <string name="intro_1">中国最具魅力的休闲乡村</string>
+    <string name="intro_2">全国第一低碳示范村</string>
+    <string name="intro_3">全国生态农业示范区</string>
+    <string name="intro_4">国家级生态村</string>
+    <string name="intro_5">国家AAAA级旅游景区</string>
+    <string name="intro_6">全国特色景观名镇（村）</string>
+    <string name="intro_7">全国地质公园</string>
+    <string name="intro_8">中国特色村</string>
+    <string name="intro_9">中国绿色村庄</string>
+    <string name="intro_10">中国农业公园</string>
+    <string name="intro_11">1996年曾获联合国全球生态五百佳提名奖</string>
+    <string name="my_photo">我的照片</string>
+    <string name="choose">选择</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="taste">口味</string>
+    <string name="services">服务</string>
+    <string name="condition">环境</string>
+    <string name="submit">提交</string>
+    <string name="comment_hit">说点什么…</string>
+    <string name="input_limit_prompt">至少输入10个字符</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="banbenxinxi">1.0.0</string>
+	<string name="about_huarun3">Copyright@巨服（上海）信息科技有限公司</string>
+</resources>

@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/com/gservfocus/qwc/activity/DetailScenicIntroActivity.java=UTF-8
+encoding//src/com/gservfocus/qwc/activity/LoginActivity.java=UTF-8
+encoding//src/com/gservfocus/qwc/activity/WelcomeActivity.java=UTF-8
+encoding//src/com/gservfocus/qwc/activity/view/MyAnimations.java=UTF-8
+encoding//src/com/gservfocus/qwc/net/impl/GetWheather.java=UTF-8
+encoding//src/com/gservfocus/qwc/net/impl/QwcApiImpl.java=UTF-8
+encoding//src/net/tsz/afinal/FinalHttp.java=UTF-8
+encoding//src/net/tsz/afinal/http/HttpHandler.java=UTF-8
+encoding//src/net/tsz/afinal/http/RetryHandler.java=UTF-8
+encoding/<project>=GBK

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#5D646F</color>
+    <color name="light_gray">#606060</color>
+    <color name="white">#ffffff</color>
+    <color name="activity_bg">#FDFCF5</color>
+    <color name="tab_line">#898989</color>
+    <color name="black">#000000</color>
+    <color name="scenic_link_color">#808000</color>
+    <color name="green">#139266</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ffffff</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#20000000</color>
+    <color name="navigationbar_color">#02a1db</color>
+</resources>

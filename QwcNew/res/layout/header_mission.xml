@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="注册好后，蔬果采摘享受原价的“8.8折”。在参与活动的农家就餐或住宿即可享受“9折”优惠。玩红土网球可以享受“8.8折”。" 
+        style="@style/text_gray_20"/>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical"
+    tools:context="com.gservfocus.qwc.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <com.gservfocus.qwc.activity.view.MyViewPager
+        android:id="@+id/tabViewPager"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+    <!-- tabbar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingBottom="3dp"
+        android:background="@drawable/tabbar_bg"
+        >
+        <TextView 
+            android:id="@+id/bottomMenuHome"
+            style="@style/AverageWidthMacthTextStyle_d"
+            android:drawableTop="@drawable/home_d"
+            android:gravity="center_horizontal"
+            android:text="@string/home"
+            />
+        <TextView 
+            android:id="@+id/bottomMenuPhoto"
+            style="@style/AverageWidthMacthTextStyle"
+            android:drawableTop="@drawable/take_photo"
+            android:gravity="center_horizontal"
+            android:drawablePadding="2dp"
+            android:text="@string/take_photo"
+            />
+        <TextView 
+            android:id="@+id/bottomMenuQcode"
+            style="@style/AverageWidthMacthTextStyle"
+            android:drawableTop="@drawable/qcode"
+            android:gravity="center_horizontal"
+            android:drawablePadding="1dp"
+            android:text="@string/qcode"
+            />
+        <TextView 
+            android:id="@+id/bottomMenuMore"
+            style="@style/AverageWidthMacthTextStyle"
+            android:drawableTop="@drawable/more"
+            android:gravity="center_horizontal"
+            android:text="@string/me"
+            />
+    </LinearLayout>
+</LinearLayout>

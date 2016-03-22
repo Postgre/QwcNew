@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:orientation="horizontal" >
+
+    <FrameLayout style="@style/AverageWidthMacthLayoutStyle" 
+        android:id="@+id/photoManagerChildItemFG1Layout"
+        >
+
+        <ImageView
+            android:id="@+id/photoManagerChildItem1IV"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/farm_stay"
+             />
+        <ImageView
+            android:id="@+id/photoManagerChildItemFG1IV"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/photo_choose_mode"
+             />
+    </FrameLayout>
+    <FrameLayout style="@style/AverageWidthMacthLayoutStyle" android:layout_marginLeft="1dp"
+        android:id="@+id/photoManagerChildItemFG2Layout">
+
+        <ImageView
+            android:id="@+id/photoManagerChildItem2IV"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:src="@drawable/farm_stay"
+             />
+        <ImageView
+            android:id="@+id/photoManagerChildItemFG2IV"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/photo_choose_mode"
+             />
+    </FrameLayout>
+    <FrameLayout style="@style/AverageWidthMacthLayoutStyle" android:layout_marginLeft="1dp"
+        android:id="@+id/photoManagerChildItemFG3Layout">
+
+        <ImageView
+            android:id="@+id/photoManagerChildItem3IV"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:src="@drawable/farm_stay"
+             />
+        <ImageView
+            android:id="@+id/photoManagerChildItemFG3IV"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/photo_choose_mode"
+             />
+    </FrameLayout>
+    <FrameLayout style="@style/AverageWidthMacthLayoutStyle" android:layout_marginLeft="1dp"
+        android:id="@+id/photoManagerChildItemFG4Layout">
+
+        <ImageView
+            android:id="@+id/photoManagerChildItem4IV"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:src="@drawable/farm_stay"
+             />
+        <ImageView
+            android:id="@+id/photoManagerChildItemFG4IV"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/photo_choose_mode"
+             />
+    </FrameLayout>
+
+</LinearLayout>

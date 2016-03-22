@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/navigationbar_weather" />
+    
+    <FrameLayout
+        android:id="@+id/homeBannerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+       <!--  <android.support.v4.view.ViewPager
+            android:id="@+id/bannerViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" /> -->
+
+        <LinearLayout
+            android:id="@+id/bannerViewPagerControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            style="@style/AverageWidthMacthTextStyle"
+            android:id="@+id/intro"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/scenic_intro"
+            android:gravity="center_horizontal"
+            android:text="@string/scenic_intro" />
+
+        <TextView
+            style="@style/AverageWidthMacthTextStyle"
+            android:id="@+id/navi"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/scenic_navi"
+            android:gravity="center_horizontal"
+            android:text="@string/scenic_navi" />
+
+        <TextView
+            style="@style/AverageWidthMacthTextStyle"
+            android:id="@+id/onsell"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/activity"
+            android:gravity="center_horizontal"
+            android:text="@string/activity" />
+
+        <TextView
+            style="@style/AverageWidthMacthTextStyle"
+            android:id="@+id/traffic"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/traffic"
+            android:gravity="center_horizontal"
+            android:text="@string/traffic" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/bottomMenuGridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@color/transparent"
+        android:columnWidth="50dp"
+        android:gravity="center"
+        android:listSelector="@color/transparent"
+        android:numColumns="2"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="20dp" >
+    </GridView>
+
+</LinearLayout>

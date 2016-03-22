@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <ImageView
+        android:id="@+id/recommendLeftLineIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/leftline" />
+
+    <TextView
+        android:id="@+id/suggestscenicname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/recommendLeftLineIv"
+        android:gravity="center_vertical"
+        style="@style/text_green_16"
+        android:text="@string/app_name" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <com.gservfocus.qwc.activity.view.RoundedImageView
+            android:id="@+id/suggestscenicimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/white"
+            app:border_color="#139266"
+            app:border_width="0dip"
+            app:corner_radius="5dip"
+            app:mutate_background="true"
+            app:oval="false" />
+
+        <TextView
+            android:id="@+id/suggestscenicintro"
+            style="@style/text_gray_12"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/text_board"
+            android:gravity="top"
+            android:padding="10dp"
+            android:text="" />
+    </FrameLayout>
+
+</RelativeLayout>

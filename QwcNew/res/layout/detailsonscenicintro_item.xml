@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:id="@+id/scenicDetailChildItem1"
+        style="@style/AverageWidthMacthLayoutStyle"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="6dp" >
+
+        <com.gservfocus.qwc.activity.view.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/white"
+            app:border_color="#139266"
+            app:border_width="0dip"
+            app:corner_radius="0dip"
+            app:mutate_background="true"
+            app:oval="false" />
+
+        <TextView
+            style="@style/text_white_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:background="#44000000"
+            android:padding="5dp"
+            android:text="@string/app_name" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/scenicDetailChildItem2"
+        style="@style/AverageWidthMacthLayoutStyle"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="6dp" >
+
+        <com.gservfocus.qwc.activity.view.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/white"
+            app:border_color="#139266"
+            app:border_width="0dip"
+            app:corner_radius="0dip"
+            app:mutate_background="true"
+            app:oval="false" />
+
+        <TextView
+            style="@style/text_white_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:background="#44000000"
+            android:padding="5dp"
+            android:text="@string/app_name" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/scenicDetailChildItem3"
+        style="@style/AverageWidthMacthLayoutStyle"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp" >
+
+        <com.gservfocus.qwc.activity.view.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/white"
+            app:border_color="#139266"
+            app:border_width="0dip"
+            app:corner_radius="0dip"
+            app:mutate_background="true"
+            app:oval="false" />
+
+        <TextView
+            style="@style/text_white_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:background="#44000000"
+            android:padding="5dp"
+            android:text="@string/app_name" />
+    </FrameLayout>
+
+</LinearLayout>

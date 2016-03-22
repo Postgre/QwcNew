@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/hotelimage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/text_green_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="评分:" />
+
+        <RatingBar
+            android:id="@+id/hotelrating"
+            style="@style/roomRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="1" />
+
+        <TextView
+            android:id="@+id/score"
+            style="@style/text_green_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="口味 0  环境 0  服务 0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/text_green_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="简介" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@color/gray" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hotelintro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:lineSpacingMultiplier="1.2"
+        style="@style/text_gray_15"
+        android:text="暂无" />
+
+    <TextView
+        android:id="@+id/hoteltele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/tel2"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:textColor="@color/green"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/hoteltele1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/tel2"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:textColor="@color/green"
+        android:textSize="13dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/hoteltele2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/tel2"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:textColor="@color/green"
+        android:textSize="13dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/hoteladdress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/address"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="前卫村1234弄4321号1234室"
+        android:textSize="13dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/text_green_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="评论" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@color/gray" />
+    </LinearLayout>
+
+</LinearLayout>

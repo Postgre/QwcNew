@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#fdfcfe">
+
+    <!-- navigation bar -->
+
+    <include layout="@layout/navigationvbar_style" />
+    <!-- recommend hot scenic -->
+
+    <com.gservfocus.qwc.other.parallax.ParallaxListView
+        android:id="@+id/scenicDetailsLV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:listSelector="#00000000"
+        android:footerDividersEnabled="false"
+        android:dividerHeight="0dp"
+        app:zoomRatio="1.4" >
+    </com.gservfocus.qwc.other.parallax.ParallaxListView>
+    <!-- bottom menu -->
+
+    <include layout="@layout/menu1" />
+     <TextView
+            android:id="@+id/ifNoNet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:background="@color/white"
+            android:text="亲，您的网络不给力啊~" />
+ 
+</FrameLayout>
